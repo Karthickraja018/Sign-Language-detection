@@ -1,5 +1,4 @@
 from flask import Flask, render_template, Response, stream_with_context
-#from keras.models import load_model
 import cv2
 import mediapipe as mp
 import os
