@@ -5,6 +5,8 @@ import os
 import numpy as np
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
+
+#load the model using tensorflow
 model = load_model('model/model.h5')
 
 
