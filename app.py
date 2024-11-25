@@ -9,7 +9,7 @@ from tensorflow.keras.models import load_model
 #load the model using tensorflow
 model = load_model('model/model.h5')
 
-
+#give app name
 app = Flask(__name__)
 
 # Initialize MediaPipe hand detection
