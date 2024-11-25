@@ -22,6 +22,7 @@ hands = mp_hands.Hands(static_image_mode=False,
                        max_num_hands=1, min_detection_confidence=0.3)
 
 # To detect and return the hand bounding box
+#difine a function
 
 
 def detect_hand(hand_landmarks, frame):
